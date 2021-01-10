@@ -1,0 +1,197 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.parent {
+  background: #c5edac;
+  padding: 100px;
+}
+
+.title {
+  text-align: left;
+}
+
+.upper-bar {
+  height: 30px;
+  border-bottom-color: black;
+  border-bottom-style: inherit;
+  border-bottom-width: 1px;
+  padding-left: 16px;
+}
+
+.userInput {
+  grid-area: main;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #888;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-flex;
+  margin-left: 8px;
+}
+
+.balanceHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balanceSubHeader {
+  text-align: center;
+}
+
+.lower-bar {
+  padding: 30px;
+}
+
+.selectDropdown {
+  border-radius: 20px;
+}
+
+.transactionInput {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.amountInput {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form {
+  grid-column: 1/2;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.totals {
+  grid-area: sidebar;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  flex-grow: 2;
+  margin: 10px;
+  box-shadow: 5px 5px 5px #888;
+}
+
+.transaction {
+  grid-area: footer;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 5px #888;
+}
+
+.input {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.photo {
+  height: 60px;
+  width: 60px;
+}
+
+#flat {
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+.clearButton {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  background: #93b1a7;
+}
+
+.submitButton {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #93b1a7;
+  border-radius: 20px;
+}
+
+.output {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.categories {
+  text-align: left;
+}
+
+.amount {
+  text-align: right;
+}
+
+.balance {
+  font-size: 30px;
+  text-align: center;
+}
+
+.table {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+  width: 50%;
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+  font-weight: bold;
+}
+.incomeOutput {
+  margin-bottom: 10px;
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+  margin-right: 5px;
+}
+.expensesOutput {
+  margin-bottom: 10px;
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+}
+
+.title {
+  width: 400px;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+}
+
